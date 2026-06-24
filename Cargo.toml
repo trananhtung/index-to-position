@@ -1,0 +1,25 @@
+[package]
+name = "index-to-position"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "Convert a string byte index to a line and column position. A Rust port of the index-to-position npm package. Zero dependencies, no_std."
+documentation = "https://docs.rs/index-to-position"
+repository = "https://github.com/trananhtung/index-to-position"
+homepage = "https://github.com/trananhtung/index-to-position"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["position", "line", "column", "index", "offset"]
+categories = ["text-processing", "parsing", "no-std"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
